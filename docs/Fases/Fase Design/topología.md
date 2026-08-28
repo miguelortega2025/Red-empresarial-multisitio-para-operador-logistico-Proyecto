@@ -8,19 +8,4 @@ Se ha completado la validación y estructuración de la **Topología Física de 
 
 ## 1. Diagrama de Arquitectura de Red (Sede Panamá)
 
-```text
-                       [ ISP-A ]      [ ISP-B ]
-                           \            /
-                            \          /
-                             [ FW-PTY ]
-                             /        \
-                            /          \
-                   [ SW-CORE-PTY-1 ] <----> [ SW-CORE-PTY-2 ]
-                      /        \              /        \
-                     /          \            /          \
-            [ SW-DIST-PTY-1 ] <-------------> [ SW-DIST-PTY-2 ]
-               /   |   |   \                     /   |   |   \
-             [WLC] |   |   +--------------------+    |   |    \
-                   |   +--------------------------+   |     \
-                   |                                  |      \
-            [ SW-ACC-PTY-1 ]  [ SW-ACC-PTY-2 ]  [ SW-ACC-PTY-3 ]  [ SW-ACC-PTY-4 ]
+<img width="1056" height="567" alt="image" src="https://github.com/user-attachments/assets/796e594a-d29d-4556-baa5-9ca156b5f6cb" />
