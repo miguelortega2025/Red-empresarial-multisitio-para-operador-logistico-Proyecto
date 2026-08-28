@@ -7,5 +7,5 @@ Se ha completado la validación y estructuración de la **Topología Física de 
 ---
 
 ## 1. Diagrama de Arquitectura de Red (Sede Panamá)
+<img width="1052" height="565" alt="image" src="https://github.com/user-attachments/assets/8ef1da55-3bda-49b4-a8c2-a5422421f4fd" />
 
-<img width="1056" height="567" alt="image" src="https://github.com/user-attachments/assets/796e594a-d29d-4556-baa5-9ca156b5f6cb" />
