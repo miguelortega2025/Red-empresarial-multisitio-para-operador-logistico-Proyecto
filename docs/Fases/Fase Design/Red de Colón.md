@@ -18,7 +18,7 @@ La siguiente topología representa la **interconexión física** de los equipos 
 
 ---
 
-## 🔗 Tabla de Conexiones Físicas
+##  Tabla de Conexiones Físicas
 
 | Equipo A | Equipo B | Tipo de Cable |
 |----------|----------|---------------|
@@ -46,7 +46,7 @@ La siguiente topología representa la **interconexión física** de los equipos 
 
 ---
 
-## ✅ Requisitos cumplidos (Fase Design)
+##  Requisitos cumplidos (Fase Design)
 
 | ID | Requisito | Estado | Justificación |
 |----|-----------|--------|---------------|
@@ -61,7 +61,7 @@ La siguiente topología representa la **interconexión física** de los equipos 
 
 ---
 
-## 🖥️ Equipos utilizados en Packet Tracer
+##  Equipos utilizados en Packet Tracer
 
 | Equipo | Nombre asignado | Rol |
 |--------|-----------------|-----|
@@ -81,7 +81,7 @@ La siguiente topología representa la **interconexión física** de los equipos 
 
 ---
 
-## 📌 Notas para la fase Implement
+##  Notas para la fase Implement
 
 - **VLANs pendientes de configurar:** VLAN 10 (Admin), VLAN 15 (WMS-Bodega), VLAN 30 (Voz), VLAN 90 (Guest), VLAN 99 (Gestión).
 - **Protocolos pendientes:** OSPF (área 0), HSRP en Cores, EtherChannel entre Core y Distribución.
@@ -91,12 +91,12 @@ La siguiente topología representa la **interconexión física** de los equipos 
 
 ---
 
-## 🔜 Próximo paso
+##  Próximo paso
 
 Construcción de la **topología física de la sede Interior del país** (sucursal con enlace único + respaldo 4G/5G) y posterior interconexión WAN entre las tres sedes vía SD-WAN.
 
 ---
 
-## 📂 Archivos relacionados
+##  Archivos relacionados
 - `Topologia_Colon.pkt` — Archivo de Packet Tracer con la topología física.
 - `Fase_Design_Red_Logistica.pdf` — Documento de diseño (fase Design).
