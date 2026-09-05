@@ -28,18 +28,8 @@ Panamá (ver segunda sección de este changelog).
 
 **Topología resultante (doble transporte)**
 
-```
-                    [Transporte 1: 172.16.0.0/30]
-ISP-A ──────────────────────────────────────── ISP-A-COL
-   |                                                |
-FW-PTY-2 ── SW-CORE-PTY-2      SW-CORE-COL-2 ── FW-COL-2
-                                                
-   |                                                |
-FW-PTY ──── SW-CORE-PTY-1      SW-CORE-COL ──── FW-COL
-   |                                                |
-ISP-B ──────────────────────────────────────── ISP-B-COL
-                    [Transporte 2: 172.16.0.4/30]
-```
+<img width="1803" height="586" alt="image" src="https://github.com/user-attachments/assets/30b2df13-0dd7-45be-94e6-7ec34b5e2a74" />
+
 
 Con esto, si cae el Transporte 1, el tráfico entre sedes sigue cursando por el
 Transporte 2, sin dejar ninguna sede aislada — cumpliendo el mecanismo de "failover
